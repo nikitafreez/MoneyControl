@@ -1,0 +1,19 @@
+﻿<Window x:Class="MoneyControl.Reg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MoneyControl"
+        mc:Ignorable="d"
+        Title="Регистрация" Height="274" Width="414.8" WindowStartupLocation="CenterScreen" Closed="Window_Closed">
+    <Grid Margin="0,0,-7,0">
+        <TextBox x:Name="loginTextBox" HorizontalAlignment="Center" Height="23" FontFamily="Century Gothic" Margin="0,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="16"/>
+        <Label Content="Логин" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,13,0,0" FontFamily="Century Gothic" Width="150" FontSize="15"/>
+        <TextBox x:Name="passwordTextBox" HorizontalAlignment="Center" Height="23" FontFamily="Century Gothic" Margin="0,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="16"/>
+        <Label Content="Пароль" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,66,0,0" FontFamily="Century Gothic" Width="150" FontSize="15"/>
+        <TextBox x:Name="passwordTextBoxCheck" HorizontalAlignment="Center" Height="23" FontFamily="Century Gothic" Margin="0,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="16"/>
+        <Label Content="Повторите пароль" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,118,0,0" FontFamily="Century Gothic" Width="150" FontSize="15"/>
+        <Button Content="Зарегистрироваться" HorizontalAlignment="Center" Margin="0,182,0,24.6" VerticalAlignment="Center" Width="150" FontFamily="Century Gothic" Height="30" Click="Button_Click"/>
+
+    </Grid>
+</Window>

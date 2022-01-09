@@ -1,0 +1,25 @@
+﻿<Window x:Class="MoneyControl.Auth"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MoneyControl"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="410.4" Width="408.8" WindowStartupLocation="CenterScreen" Closed="Window_Closed">
+    <Grid>
+        <Viewbox HorizontalAlignment="Left" Height="140" Margin="131,38,0,0" VerticalAlignment="Top" Width="140">
+            <Viewbox.OpacityMask>
+                <ImageBrush ImageSource="1УЕ.png"/>
+            </Viewbox.OpacityMask>
+        </Viewbox>
+        <Image Source="1УЕ.png" Margin="122,28,121.6,192.4" VerticalAlignment="Center" HorizontalAlignment="Center" Width="140" Height="140"/>
+        <TextBox x:Name="loginTextBox" HorizontalAlignment="Left" Height="23" FontFamily="Century Gothic" Margin="122,208,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="16"/>
+        <Label Content="Логин" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="122,178,0,0" FontFamily="Century Gothic" Width="150" FontSize="16"/>
+        <TextBox x:Name="passwordTextBox" HorizontalAlignment="Left" Height="23" FontFamily="Century Gothic" Margin="122,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="16"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="122,231,0,0" FontFamily="Century Gothic" Width="150" FontSize="16"/>
+        <Button x:Name="EnterButton" Content="Войти" HorizontalAlignment="Center" Margin="159,290,159.6,63.4" VerticalAlignment="Center" Width="75" FontFamily="Century Gothic" RenderTransformOrigin="0.523,-0.136" Click="EnterButton_Click"/>
+        <Label Content="или" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="181,307,180.6,39.4" FontFamily="Century Gothic" Width="32"/>
+        <Button Content="Зарегистрироваться" HorizontalAlignment="Center" Margin="122,331,121.6,22.4" VerticalAlignment="Center" Width="150" FontFamily="Century Gothic" RenderTransformOrigin="0.523,-0.136" Click="Button_Click"/>
+
+    </Grid>
+</Window>
